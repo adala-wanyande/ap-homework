@@ -3,3 +3,7 @@ type MyComponentProps = {
 }
 
 type age = number
+
+type ContextType = {
+    age: number
+}

@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useContext } from "react";
+import { AgeContext } from "../context/AgeContext";
 
-const ThirdChild = ({age}: MyComponentProps) => {
-  return (
-    <div>The minimum drinking age in the US is {age}</div>
-  )
-}
+const ThirdChild = () => {
+  const { age } = useContext(AgeContext);
+  return <div>The minimum drinking age in the US is {age}</div>;
+};
 
-export default ThirdChild
+export default ThirdChild;

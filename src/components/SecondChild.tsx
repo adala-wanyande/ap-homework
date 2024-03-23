@@ -1,10 +1,8 @@
-import React from 'react'
-import ThirdChild from './ThirdChild'
+import React from "react";
+import ThirdChild from "./ThirdChild";
 
-const SecondChild = ({age}: MyComponentProps) => {
-  return (
-    <ThirdChild age={age}/>
-  )
-}
+const SecondChild = () => {
+  return <ThirdChild />;
+};
 
-export default SecondChild
+export default SecondChild;
