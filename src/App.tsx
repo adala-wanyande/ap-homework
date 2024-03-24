@@ -1,13 +1,15 @@
 import { useState } from "react";
-import Parent from "./components/Parent";
-import { AgeContext } from "./context/AgeContext";
+import Login from "./components/Login";
+import SignUp from "./components/SignUp";
 
 function App() {
-  const [age, setAge] = useState<age>(21);
   return (
-    <AgeContext.Provider value={{ age }}>
-      <Parent />
-    </AgeContext.Provider>
+    <>
+      <h1>Login Form</h1>
+      <Login />
+      <h1>Sign Up Form</h1>
+      <SignUp />
+    </>
   );
 }
 
