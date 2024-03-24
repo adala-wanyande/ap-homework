@@ -1,11 +1,13 @@
 import { useState } from "react";
-import Tribes from "./components/Tribes";
+import Parent from "./components/Parent";
+import { AgeContext } from "./context/AgeContext";
 
 function App() {
+  const [age, setAge] = useState<Age>(21);
   return (
-    <>
-      <Tribes/>
-    </>
+    <AgeContext.Provider value={{ age }}>
+      <Parent />
+    </AgeContext.Provider>
   );
 }
 

@@ -2,7 +2,7 @@ import React from "react";
 import ThirdChild from "./ThirdChild";
 
 const SecondChild = () => {
-  return <ThirdChild />;
+    return <ThirdChild />;
 };
 
 export default SecondChild;
