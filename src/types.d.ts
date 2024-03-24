@@ -6,15 +6,15 @@ type ContextType = {
   age: number;
 };
 
-type age = number;
-type username = string;
-type password = string;
+type Age = number;
+type Username = string;
+type Password = string;
 
-type signUpForm = {
+type SignUpForm = {
   firstName: string;
   lastName: string;
   age: number;
   password: string;
 };
 
-type tribes = string[];
+type Tribes = string[];
