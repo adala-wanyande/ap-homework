@@ -16,3 +16,5 @@ type signUpForm = {
   age: number;
   password: string;
 };
+
+type tribes = string[];
