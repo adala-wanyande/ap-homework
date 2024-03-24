@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Tribes = () => {
-  const [tribes, setTribes] = useState<tribes>([
+  const [tribes, setTribes] = useState<Tribes>([
     "Kisii",
     "Kalenjin",
     "Meru",
