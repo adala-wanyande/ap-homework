@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const SignUp = () => {
-  const [signUpForm, setsignUpForm] = useState<signUpForm>({
+  const [signUpForm, setsignUpForm] = useState<SignUpForm>({
     firstName: "",
     lastName: "",
     age: 0,

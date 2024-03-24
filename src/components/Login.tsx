@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 const Login = () => {
-  const [username, setUsername] = useState<username>();
-  const [password, setPassword] = useState<password>();
+  const [username, setUsername] = useState<Username>();
+  const [password, setPassword] = useState<Password>();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
