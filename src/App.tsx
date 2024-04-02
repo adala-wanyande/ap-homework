@@ -1,9 +1,9 @@
-import MyApp from "./components/MyApp";
+import AboutPage from "./components/AboutPage";
 
 function App() {
   return (
     <>
-      <MyApp/>
+      <AboutPage/>
     </>
   );
 }
