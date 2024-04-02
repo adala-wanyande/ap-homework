@@ -1,10 +1,9 @@
-import { useState } from "react";
-import Tribes from "./components/Tribes";
+import MyApp from "./components/MyApp";
 
 function App() {
   return (
     <>
-      <Tribes/>
+      <MyApp/>
     </>
   );
 }
