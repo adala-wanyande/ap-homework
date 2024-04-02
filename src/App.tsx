@@ -1,9 +1,9 @@
-import MovingDot from "./components/MovingDot";
+import FeedbackForm from "./components/FeedbackForm";
 
 export default function App() {
   return (
     <>
-      <MovingDot />
+      <FeedbackForm />
     </>
   );
 }
