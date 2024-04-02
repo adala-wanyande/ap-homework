@@ -1,9 +1,9 @@
-import Image from "./components/Image";
+import User from "./components/User";
 
 function App() {
   return (
     <>
-      <Image />
+      <User />
     </>
   );
 }
