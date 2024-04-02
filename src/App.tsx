@@ -1,9 +1,9 @@
-import ShoppingList from "./components/ShoppingList";
+import MyApp from "./components/MyApp";
 
 function App() {
   return (
     <>
-      <ShoppingList />
+      <MyApp />
     </>
   );
 }

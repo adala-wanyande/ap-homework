@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const MyButton = () => {
-  return (
-    <button>I'm a button</button>
-  )
-}
+  const handleClick = () => {
+    alert("You clicked me!");
+  };
 
-export default MyButton
+  return <button onClick={handleClick}>Click me</button>;
+};
+
+export default MyButton;
