@@ -50,3 +50,16 @@ interface PlaceTreeProps {
   placesById: PlacesById;
   onComplete: (parentId: number, childId: number) => void;
 }
+
+interface SectionProps {
+  children: React.ReactNode;
+}
+
+interface HeadingProps {
+  children: React.ReactNode;
+}
+
+type LevelContextType = number;
+
+
+

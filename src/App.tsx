@@ -1,9 +1,8 @@
-import TravelPlan from "./components/TravelPlan";
-
+import Page from "./components/Page";
 export default function App() {
   return (
     <>
-      <TravelPlan />
+      <Page />
     </>
   );
 }
