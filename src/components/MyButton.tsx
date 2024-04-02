@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
 const MyButton = () => {
+  const [count, setCount] = useState<number>(0);
+
   const handleClick = () => {
-    alert("You clicked me!");
+    setCount(count + 1);
   };
 
-  return <button onClick={handleClick}>Click me</button>;
+  return <button onClick={handleClick}>Clicked {count} times</button>;
 };
 
 export default MyButton;
