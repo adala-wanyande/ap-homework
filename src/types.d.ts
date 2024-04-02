@@ -23,3 +23,8 @@ type MyButtonProps = {
   handleClick: () => void;
   count: number;
 };
+
+type Position = {
+  x: number,
+  y: number,
+}
