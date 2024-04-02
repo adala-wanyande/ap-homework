@@ -1,9 +1,9 @@
-import FeedbackForm from "./components/FeedbackForm";
+import NameForm from "./components/NameForm";
 
 export default function App() {
   return (
     <>
-      <FeedbackForm />
+      <NameForm />
     </>
   );
 }
