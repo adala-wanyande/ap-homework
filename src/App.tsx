@@ -1,9 +1,8 @@
-import User from "./components/User";
-
+import Content from "./components/Content";
 function App() {
   return (
     <>
-      <User />
+      <Content />
     </>
   );
 }
