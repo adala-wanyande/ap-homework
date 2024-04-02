@@ -1,9 +1,9 @@
-import Menu from "./components/Menu";
+import TravelPlan from "./components/TravelPlan";
 
 export default function App() {
   return (
     <>
-      <Menu />
+      <TravelPlan />
     </>
   );
 }

@@ -33,3 +33,20 @@ interface Item {
   title: string;
   id: number;
 }
+
+interface Place {
+  id: number;
+  title: string;
+  childIds: number[];
+}
+
+interface PlacesById {
+  [key: number]: Place;
+}
+
+interface PlaceTreeProps {
+  id: number;
+  parentId: number;
+  placesById: PlacesById;
+  onComplete: (parentId: number, childId: number) => void;
+}
