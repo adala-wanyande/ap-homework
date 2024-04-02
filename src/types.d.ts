@@ -18,3 +18,8 @@ type SignUpForm = {
 };
 
 type Tribes = string[];
+
+type MyButtonProps = {
+  handleClick: () => void;
+  count: number;
+};

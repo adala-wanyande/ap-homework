@@ -1,12 +1,6 @@
 import React, { useState } from "react";
 
-const MyButton = () => {
-  const [count, setCount] = useState<number>(0);
-
-  const handleClick = () => {
-    setCount(count + 1);
-  };
-
+const MyButton: React.FC<MyButtonProps> = ({handleClick, count}) => {
   return <button onClick={handleClick}>Clicked {count} times</button>;
 };
 
