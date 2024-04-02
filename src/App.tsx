@@ -1,8 +1,9 @@
-import Content from "./components/Content";
+import ShoppingList from "./components/ShoppingList";
+
 function App() {
   return (
     <>
-      <Content />
+      <ShoppingList />
     </>
   );
 }
