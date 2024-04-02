@@ -1,11 +1,9 @@
-import MyApp from "./components/MyApp";
+import Form from "./components/Form";
 
-function App() {
+export default function App() {
   return (
     <>
-      <MyApp />
+      <Form/>
     </>
   );
 }
-
-export default App;
