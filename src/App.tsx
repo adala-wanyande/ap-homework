@@ -1,9 +1,9 @@
-import AboutPage from "./components/AboutPage";
+import Image from "./components/Image";
 
 function App() {
   return (
     <>
-      <AboutPage/>
+      <Image />
     </>
   );
 }
