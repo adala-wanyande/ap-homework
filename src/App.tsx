@@ -1,9 +1,9 @@
-import NameForm from "./components/NameForm";
+import Menu from "./components/Menu";
 
 export default function App() {
   return (
     <>
-      <NameForm />
+      <Menu />
     </>
   );
 }

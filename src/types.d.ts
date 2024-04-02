@@ -28,3 +28,8 @@ type Position = {
   x: number,
   y: number,
 }
+
+interface Item {
+  title: string;
+  id: number;
+}
